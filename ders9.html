@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ders9.css" />
+    <script>
+      let user = localStorage.getItem("user");
+      if (user == null) {
+        alert("sehifeye daxil olmaq ucun login olmalisiniz");
+        location.href = "../qeydiyyat/js8.html";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <ul class="first">
+        <li>Telefonlar ve qadcetler</li>
+        <li>Televizorlar, audio-video</li>
+        <li class="first-li">
+          Noutbuklar ve komputerler
+
+          <ul class="second" style="position: fixed">
+            <li>Noutbuklar</li>
+            <li>Predator Thronos komputerleri</li>
+            <li>Masaustu komputerler</li>
+            <li>Monobloklar</li>
+            <li>Monitorlar</li>
+            <li class="second-li">
+              Printerler ve kartricler
+              <div class="third" style="position: fixed">
+                <ul>
+                  <li>Printerler</li>
+                  <li>kartricler</li>
+                </ul>
+              </div>
+            </li>
+            <li class="third-li">
+              komputer aksesuarlari
+              <div class="fourth" style="position: fixed; top: 0">
+                <ul>
+                  <li>Klaviatura ve komputer sicanlari</li>
+                  <li>Modemler ve routerler</li>
+                  <li>Noutbuk ucun cantalar</li>
+                  <li>Xarici toplayici diskler HDD ve SSD</li>
+                  <li>Fles toplayici</li>
+                  <li>Veb kamrelar</li>
+                  <li>IP kameralar</li>
+                  <li>Mikrofonlar</li>
+                  <li>Muxtelif</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li>Boyuk meiset texnikasi</li>
+        <li>Kicik meiset texnikasi</li>
+        <li>Iqlim texnikasi</li>
+        <li>Gozellik ve saglamliq</li>
+        <li>Foto ve video</li>
+        <li>Musiqi aletleri ve avadanliqlari</li>
+        <li>Oyun konsollari, oyunlar</li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Abel;
+  src: url(Abel-Pro.otf);
+}
+
+.main {
+  width: 260px;
+  
+  
+}
+.first {
+  list-style-type: none;
+  
+}
+
+.first li {
+  padding: 6px;
+  font-family: Abel;
+  
+  
+  
+  
+}
+.first li:hover {
+  color: rgb(40, 40, 223);
+  cursor: pointer;
+  
+}
+
+.second {
+  list-style-type: none;
+  margin-left: 215px;
+  width: 250px;
+  
+  display: none; 
+  background: wheat;
+  margin-top: -102px;
+  margin-bottom: 200px;
+  padding-bottom: 30px;
+}
+.second li {
+  color: black;
+}
+.first-li:hover .second {
+  display: block;
+}
+.third {
+  width: 75px;
+  height: 200px;
+  display: none;
+  
+  margin-left: 245px;
+  background-color: wheat;
+  padding: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: -178px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.second-li:hover .third {
+  display: block;
+}
+.third ul {
+  list-style-type: none;
+}
+.third ul li {
+  margin-left: -70px;
+}
+.fourth ul {
+  list-style-type: none;
+}
+.fourth {
+  width: 300px;
+  height: 370px;
+  
+  background-color: wheat;
+  margin-left: 245px;
+  display: none;
+  margin-top: 0px;
+}
+.third-li:hover .fourth {
+  display: block;
+}
